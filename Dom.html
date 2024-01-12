@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Onclick</title>
+</head>
+<body>
+    <button onclick="LikeThere()">Like hear</button>
+    <p id="para">Welcome Here</p>
+    <h1 id ="Heading">This is your Concepts</h1>
+    <div id="box">I <i>am your box</i></div>
+</body>
+</html>
+<script>
+// // // URL of a page
+// // console.log(document.url);
+// // //title of page
+// // console.log(document.title);
+// // // domain
+// // console.log(document.domain);
+// // //doctype
+// // console.log(document.doctype);
+// // //head
+// // console.log(document.head);
+// // //body
+// // console.log(document.body);
+// // //all element
+// // console.log(document.allelement);
+// // //links
+// // console.log(document.links);
+// // //images
+// console.log(document.images);
+function LikeThere(){
+    console.log("They are like me");
+    alert("like")
+}
+console.log(document.getElementById("para").innerText);
+console.log(document.getElementById("Heading").innerText);
+console.log(document.getElementById("box").innerText);
+console.log(document.getElementById("box").innerHTML);
+// <-- change the text content in the heading -->
+document.getElementById("Heading").textContent = "I am Header ";
+</script>
+
